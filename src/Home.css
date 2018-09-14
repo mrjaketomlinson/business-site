@@ -1,0 +1,92 @@
+.full-img {
+  background: url('./images/home-img.png') no-repeat top center/cover;
+  width: 100%;
+  height: 50vh;
+}
+
+.intro-text {
+  font-size: 3em;
+  position: relative;
+  top: 40%;
+  left: 0;
+}
+
+.highlight-black {
+  background-color: #000;
+  color: #FFF;
+  font-size: 1.5em;
+}
+
+.highlight-blue {
+  background-color: rgb(75, 155, 219);
+  color: #FFF;
+}
+
+.black {
+  color: #000;
+}
+
+h2 {
+  font-size: 3em;
+  margin: 35px 0 35px 0;
+}
+
+.p {
+
+}
+
+.center {
+  text-align: center;
+}
+
+.row {
+  margin-bottom: 35px;
+}
+
+.row img {
+  height: 300px;
+  width: 500px;
+}
+
+.contact-footer {
+  background-color: #101010;
+  color:  #FFF;
+}
+
+.container form {
+  margin: 35px 0 50px 0;
+}
+
+.topper {
+  margin-top: 50px;
+}
+
+.placeholder {
+  border: 2px solid #000;
+  width: auto;
+  height:500px;
+  padding: 200px 0 0 0;
+}
+
+#myCarousel {
+  border: 1px solid black;
+  width: auto;
+}
+
+#myCarousel img {
+  width: inherit;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.map-container {
+  padding: 0;
+  margin: 15px;
+  width: 800px;
+  height: 800px;
+}
