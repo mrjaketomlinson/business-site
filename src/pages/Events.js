@@ -1,14 +1,20 @@
 import React, { Component } from 'react';
 
+import Calendar from '../Components/Calendar';
+
 import '../Home.css';
 
 class Events extends Component {
   render() {
     return (
-      <div className="container">
-        <h1>Events</h1>
-        <p></p>
-        <div className="container-fluid contact-footer">
+      <div>
+        <div className="container topper">
+          <h1 className="highlight-blue">Events</h1>
+        </div>
+        <div className="container topper">
+          <Calendar />
+        </div>
+        <div className="container-fluid contact-footer footer-events">
           <div className="container">
             <h3>Contact us!</h3>
             <form>

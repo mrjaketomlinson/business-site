@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 
 import '../Home.css';
 
-import home from '../images/home-img.png';
 import business1 from '../images/business1.jpg';
 import business2 from '../images/business2.jpg';
 import business3 from '../images/business3.jpg';
@@ -10,16 +9,16 @@ import business3 from '../images/business3.jpg';
 class Home extends Component {
   render() {
     return (
-      <div>
+      <div id="home">
         <div className="full-img">
           <div className='intro-text center'>This is our<br/><span className="highlight-black">Awesome Business</span></div>
         </div>
         <div className="container center">
           <h2>Look at this cool stuff!</h2>
         </div>
-        <div className="container">
+        <div className="container-fluid">
           <div className="row">
-            <div className="col-xs-4">
+            <div className="col-lg-4">
               <div className="thumbnail">
                 <img src={business1} className="img-responsive" alt="business 1" />
                 <div className="caption">
@@ -27,7 +26,7 @@ class Home extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-xs-4">
+            <div className="col-lg-4">
               <div className="thumbnail">
                 <img src={business2} className="img-responsive" alt="business 2" />
                 <div className="caption">
@@ -35,7 +34,7 @@ class Home extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-xs-4">
+            <div className="col-lg-4">
               <div className="thumbnail">
                 <img src={business3} className="img-responsive" alt="business 3" />
                 <div className="caption">
