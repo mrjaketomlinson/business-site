@@ -17,7 +17,7 @@ class CalendarComponent extends Component {
         {
           start: new Date('September 22, 2018 04:00:00'),
           end: new Date(moment().add(2, 'days')),
-          title: 'Some Event'
+          title: 'FREE COFFEE DAYS'
         }
       ]
     };
@@ -27,9 +27,9 @@ class CalendarComponent extends Component {
     return (
       <Calendar
         defaultDate={new Date()}
-        defaultView='month'
+        defaultView='agenda'
         events={this.state.events}
-        style={{ height: '60vw' }}
+        style={{ height: '60vh', width: '58vw' }}
       />
     );
   }
