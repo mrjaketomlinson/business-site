@@ -9,28 +9,28 @@ class Events extends Component {
     return (
       <div>
         <div className="container topper">
-          <h1 className="highlight-blue">Events</h1>
+          <h1 className="highlight-blue"><span className='fas fa-angle-double-right'></span> Events</h1>
         </div>
         <div className="container topper">
           <Calendar />
         </div>
-        <div className="container-fluid contact-footer footer-events">
+        <div className="container-fluid contact-footer">
           <div className="container">
             <h3>Contact us!</h3>
             <form>
-              <div class="form-group">
-                <label for="FormControlInput1">Name</label>
-                <input type="email" class="form-control" id="FormControlInput1" placeholder="John Doe" />
+              <div className="form-group">
+                <label htmlFor="FormControlInput1">Name</label>
+                <input type="email" className="form-control" id="FormControlInput1" placeholder="John Doe" />
               </div>
-              <div class="form-group">
-                <label for="FormControlInput2">Email address</label>
-                <input type="email" class="form-control" id="FormControlInput2" placeholder="name@example.com" />
+              <div className="form-group">
+                <label htmlFor="FormControlInput2">Email address</label>
+                <input type="email" className="form-control" id="FormControlInput2" placeholder="name@example.com" />
               </div>
-              <div class="form-group">
-                <label for="FormControlTextarea1">How can we help?</label>
-                <textarea class="form-control" id="FormControlTextarea1" rows="3"></textarea>
+              <div className="form-group">
+                <label htmlFor="FormControlTextarea1">How can we help?</label>
+                <textarea className="form-control" id="FormControlTextarea1" rows="3"></textarea>
               </div>
-              <button type="submit" class="btn btn-primary mb-2">Submit</button>
+              <button type="submit" className="btn btn-primary mb-2">Submit</button>
             </form>
           </div>
         </div>
